@@ -21,22 +21,22 @@ app.post('/', function (req, res) {
 		const jsonBody = JSON.parse(body);
 		const tempInFarenheit = jsonBody.main.temp; 
 		const tempInCelcius = (5*(tempInFarenheit - 32))/9;
-		console.log(tempInCelcius, '***');
+		
     
 		const celciusRounded = tempInCelcius.toFixed(2);
-		console.log('celciusRounded');
+	
 
 		const maxTempInF = jsonBody.main.temp_max;
 		const maxTempInCelcius = (5*(maxTempInF - 32))/9;
-		console.log(maxTempInCelcius,'***');
+
 		const maxTempRounded = maxTempInCelcius.toFixed(2);
-		console.log(maxTempRounded, 'maxTempRounded');
+		
         
 		const minTempInF = jsonBody.main.temp_min;
 		const minTempinCelcius = (5*(minTempInF - 32))/9;
-		console.log(minTempinCelcius, '***');
+		
 		const minTempRounded = minTempinCelcius.toFixed(2);
-		console.log(minTempRounded, 'minTempRounded');
+
 		let greeting;
 		if (celciusRounded >20) {
 			greeting = 'Make sure you have your suncream!'; 
@@ -58,5 +58,5 @@ app.get('/success', function (req, res) {
 });
 
 app.listen(3000, function () {
-	console.log('Example app listening on port 3000!');
+	
 });
