@@ -1,2 +1,2 @@
-This weather app was my first attempt of using; Javascript, HTML and CSS without a guided course. It was created over a 3 day period after I learnt the basics of each language during my first week of work experience at The Financial Times. It was hard, but now I feel far more confident and am extremely excited for what the future of coding and web development holds for me!
-After reviewing my code, it is clear that I should be more clean and precise with my CSS classes as I have many attributes that are in several classes, and many that contradict eachother. The goal of this project was to make a working app, which has been successful, but next time I will definately concentrate more on my presentation.
+# Weather-App
+.
