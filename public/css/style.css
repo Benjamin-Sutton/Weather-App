@@ -1,0 +1,82 @@
+.ghost-button {
+    background-color: #0E5394;
+}
+.container {
+    background-color: #FC8E01;
+/* background body colour of webpage */
+}
+
+#picture_header {
+    font-family: Arial;
+    font-style: italic;
+    color: #0E5394
+
+
+}
+#logo {
+    border-width: 10px;
+    border-color: #0E5394;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.body {
+background-color: #FC8E01;
+}
+
+.text_style {
+    font-family: Arial;
+    color: #0E5394;
+    font-style: bold;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.greeting_text {
+    font-family: arial;
+    font-size: 3em;
+    color: #0E5394;
+    font-style: italic
+}
+
+.conditional_variable { 
+    border-width: 10px;
+    border-color: #0E5394;
+    border-style: solid;
+    border-radius: 50%;
+    size: 05px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    padding: 10px;
+}
+.center_text {
+    text-align: center;
+}
+
+.image_bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: table;
+    position: relative;
+    margin: auto;
+}
+
+.image_center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+}
+.title {
+    font-family: arial;
+    font-style: bold; 
+    text-decoration: underline;
+    font-size: 3.5em;
+    color: #0E5394;
+    text-align: center;
+
+}

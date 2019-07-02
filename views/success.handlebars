@@ -1,0 +1,32 @@
+
+<html>
+<body class="container">
+
+    <head>
+        <div class="title"> Your Daily weather update: </div>
+    </head>
+
+   <br></br>
+   <br></br>
+    <div class="text_style" "center_text">In {{jsonBody.name }} The temperature today will be  {{celciusRounded}}°C.<br></br>
+    With highs of {{maxTempRounded}}°C <br></br>
+    And lows of {{minTempRounded}}°C <br></br>
+    The humidity will be {{jsonBody.main.humidity}}%
+    <br></br>
+    </div>
+    {{#if isHot}}         
+    <img class ="conditional_variable image_bottom image_center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdX3pkM1zGAvQ5ekis0K4C2d7FyFQQqPHSs5VvgsFRDFxEBXQF" alt="Enjoy the beautiful weather">
+    {{else}} 
+<img class ="conditional_variable image_bottom image_center" src="https://i.cbc.ca/1.2485768.1389032184!/cpImage/httpImage/image.jpg_gen/derivatives/original_780/que-weather-20140106.jpg" alt="Make sure you wrap up">
+    {{/if}}
+    <br></br>
+    <div class="greeting_text center_text">
+        {{greeting}}
+    </>
+ 
+
+        
+</body>
+</html>
+
+
