@@ -1,16 +1,19 @@
 .ghost-button {
     background-color: #0E5394;
 }
-.container {
+.container_success{
     background-color: #FC8E01;
 /* background body colour of webpage */
+}
+.container_index {
+background-color: #0E5394;
 }
 
 #picture_header {
     font-family: Arial;
     font-style: italic;
-    color: #0E5394
-
+    color: #0E5394;
+  
 
 }
 #logo {
@@ -20,16 +23,22 @@
     border-radius: 50%;
 }
 
-.body {
-background-color: #FC8E01;
-}
 
-.text_style {
+.text_style_sucess {
     font-family: Arial;
     color: #0E5394;
     font-style: bold;
     font-size: 1.5em;
-    text-align: center;
+  
+
+}
+
+.text_style_index {
+    font-family: Arial;
+    color: #FC8E01;
+    font-style: bold;
+    font-size: 1.5em;
+ 
 
 }
 
