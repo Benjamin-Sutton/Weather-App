@@ -1,18 +1,17 @@
 
 <html>
 <body class="container_success">
-
     <head>
-        <div class="title"> Your Daily weather update: </div>
+        <div class="title_success"> Your Daily weather update:</div>
     </head>
-
-   <br></br>
-   <br></br>
-    <div class="text_style_success" "center_text">In {{jsonBody.name }} The temperature today will be  {{celciusRounded}}°C.<br></br>
+        <br></br>
+  	    <br></br>
+    <div class="text_style_success">In {{jsonBody.name }} The temperature today will be  {{celciusRounded}}°C.
+		<br></br>
     With highs of {{maxTempRounded}}°C <br></br>
     And lows of {{minTempRounded}}°C <br></br>
     The humidity will be {{jsonBody.main.humidity}}%
-    <br></br>
+   		<br></br>
     </div>
     {{#if isHot}}         
     <img class ="conditional_variable image_bottom image_center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdX3pkM1zGAvQ5ekis0K4C2d7FyFQQqPHSs5VvgsFRDFxEBXQF" alt="Enjoy the beautiful weather">

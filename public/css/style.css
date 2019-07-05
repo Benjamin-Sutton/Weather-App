@@ -1,6 +1,14 @@
 .ghost-button {
-    background-color: #0E5394;
+	background-color: #FC8E01;
+	margin-left: auto;
+    margin-right: 10px;
+	margin: auto;
+	padding: 10px;
+
+
 }
+
+  
 .container_success{
     background-color: #FC8E01;
 /* background body colour of webpage */
@@ -24,12 +32,11 @@ background-color: #0E5394;
 }
 
 
-.text_style_sucess {
+.text_style_success {
     font-family: Arial;
     color: #0E5394;
-    font-style: bold;
-    font-size: 1.5em;
-  
+	font-size: 19px;
+	text-align: center;
 
 }
 
@@ -37,7 +44,9 @@ background-color: #0E5394;
     font-family: Arial;
     color: #FC8E01;
     font-style: bold;
-    font-size: 1.5em;
+	font-size: 1.5em;
+	text-align: center;
+	
  
 
 }
@@ -80,15 +89,25 @@ background-color: #0E5394;
         width: 50%;
       
 }
-.title {
+.title_index {
     font-family: arial;
     font-style: bold; 
     text-decoration: underline;
     font-size: 3.5em;
-    color: #0E5394;
+    color: #FC8E01;
     text-align: center;
 
 }
+.title_success {
+	font-family: arial;
+	font-style: bold;
+	font-size: 3.5em; 
+    text-decoration: underline;
+    color: #0E5394;
+    text-align: center;
+}
+
+
 .image_size {
     size: 10px;
 }
